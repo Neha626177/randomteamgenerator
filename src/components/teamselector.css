@@ -1,0 +1,93 @@
+/* General Container */
+.container {
+  max-width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+
+/* File Upload Input */
+.file-upload {
+  display: block;
+  margin: 20px auto;
+  font-size: 1rem;
+  padding: 10px;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Generate Button */
+.generate-button, .pdf-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90%;
+  max-width: 200px;
+}
+
+.generate-button:hover, .pdf-button:hover {
+  background-color: #0056b3;
+}
+
+
+.teams {
+  margin-top: 30px;
+}
+
+
+.team-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.team-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.team-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-card ul li {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .team-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .team-card ul li {
+    font-size: 0.9rem;
+  }
+
+  .file-upload, .generate-button, .pdf-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .team-card h4 {
+    font-size: 1rem;
+  }
+
+  .team-card ul li {
+    font-size: 0.8rem;
+  }
+
+  .file-upload, .generate-button, .pdf-button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
